@@ -1,1 +1,43 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: green;
+}
+
+.container {
+  flex-direction: column;
+}
+
+.card {
+  background-color: white;
+  width: 400px;
+  height: 580px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.card p {
+  font-size: 130px;
+}
+
+.top-suit {
+  margin-top: -30px;
+  margin-left: 30px;
+}
+
+.number {
+  margin-top: 10px;
+}
+
+.bottom-suit {
+  margin-top: 5px;
+  transform: rotate(180deg) translateX(30px);
+}
+
+button {
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
